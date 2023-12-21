@@ -42,9 +42,10 @@ public class method {
 	
 	public static void main(String[] args) {
 		int a ,b;
-		System.out.print("a degereini giriniz: ");
 		Scanner scan =new Scanner(System.in);
+		System.out.print("a degereini giriniz: ");
 		a=scan.nextInt();
+		System.out.print("b degereini giriniz: ");
 		b=scan.nextInt();
 		
 		System.out.println("toplam değeri: "+top(a,b));
@@ -53,7 +54,8 @@ public class method {
 		System.out.println("bölüm değeri: "+böl(a,b));
 		System.out.println(top(5,2));
 		isim();
-		car(4,6);
+		System.out.println(car(4,6));
+		
 
 	}
 
